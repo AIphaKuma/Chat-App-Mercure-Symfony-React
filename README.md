@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Chat-App-Mercure-Symfony-React
 =======
 # Mercure
@@ -15,3 +16,6 @@ npm run start
 Pensez à récupérer les dépendances Yarn, Composer et à
 charger les fixtures dans le container Symfony
 >>>>>>> 5bb86cc (First Commit)
+=======
+# Chat-App-Mercure-Symfony-React
+>>>>>>> 6384f29554bf24dfb98a8bd30eb4c27467fe929a
