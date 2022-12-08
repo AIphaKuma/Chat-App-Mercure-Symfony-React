@@ -1,4 +1,4 @@
-# Un chat, genre comme celui d'Instagram mais en (beaucoup) moins bien
+# Real Time Chat App with Symfony - React - Mercure
 
 Le système est donc composé des briques suivantes :
 - Un back Symfony qui va gérer l'auth des users et l'enregistrement des messages en DB
