@@ -1,13 +1,9 @@
 # Real Time Chat App with Symfony - React - Mercure
 
-Le but ici était d'utiliser les Websockets et le protocole
-WAMP pour créer un chat privé, avec un système d'auth et de
-pérennisation des messages en DB
-
 Le système est donc composé des briques suivantes :
 - Un back Symfony qui va gérer l'auth des users et l'enregistrement des messages en DB
 - Un front en React qui prend la charge d'être un terminal de gestion de messages
-- Un serveur Websocket qui sert juste de Broker et distribue les messages entre les fronts
+- Un Hub Mercure
 
 Pour lancer le projet faut
 ```shell
