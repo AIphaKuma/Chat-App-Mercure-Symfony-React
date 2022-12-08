@@ -1,4 +1,4 @@
-# Un chat, genre comme celui d'Instagram mais en (beaucoup) moins bien
+# Real Time Chat App with Symfony - React - Mercure
 
 Le but ici était d'utiliser les Websockets et le protocole
 WAMP pour créer un chat privé, avec un système d'auth et de
