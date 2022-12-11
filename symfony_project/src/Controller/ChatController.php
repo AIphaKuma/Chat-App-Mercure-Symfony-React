@@ -24,7 +24,7 @@ class ChatController extends AbstractController
         $update = new Update(
             [
                 "https://example.com/my-private-topic",
-                "https://example.com/chat/{$user->getId()}/?topic=" . urlencode("https://example.com/my-private-topic")
+                "https://example.com/chat/{topic}/?topic=" . urlencode("https://example.com/my-private-topic")
             ],
             json_encode([
                 'user' => $user->getUsername(),

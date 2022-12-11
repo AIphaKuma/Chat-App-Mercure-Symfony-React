@@ -4,6 +4,7 @@ import NeedAuth from "./Auth/NeedAuth";
 import UserList from "./Component/UserList";
 import Login from "./Auth/Login";
 import UserProvider from "./Context/UserContext";
+import ChatRoom from "./Component/ChatRoom";
 
 function App() {
     return (
@@ -16,6 +17,11 @@ function App() {
                         </NeedAuth>
                     }/>
                     <Route path='/login' element={<Login/>}/>
+                    <Route path='/chat/:topic' element={
+                        <NeedAuth>
+                            <ChatRoom/>
+                        </NeedAuth>
+                    }/>
                 </Routes>
             </BrowserRouter>
         </UserProvider>

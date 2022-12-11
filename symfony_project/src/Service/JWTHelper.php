@@ -20,7 +20,7 @@ class   JWTHelper
         $payload = ["mercure" => [
             "subscribe" => [
                 "https://example.com/user/{$user->getId()}/{?topic}",
-                "https://example.com/chat/{$user->getId()}",
+                "https://example.com/chat/{?topic}",
             ],
             "payload" => [
                 "username" => $user->getUsername(),
